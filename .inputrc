@@ -1,0 +1,6 @@
+set editing-mode vi
+
+# remap escape
+$if mode=vi
+  "kj": vi-movement-mode
+$endif
