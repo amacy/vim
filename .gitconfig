@@ -1,0 +1,15 @@
+[user]
+	name = Aaron
+        email = amacy@kabam.com
+[core]
+	editor = vim
+[alias]
+        co = checkout
+        filelist = diff-tree --no-commit-id --name-only -r
+        s = status
+        b = branch
+        l = log
+        commitcount = shortlog -s -n
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f
